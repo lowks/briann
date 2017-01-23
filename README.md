@@ -1,4 +1,4 @@
-# brian
+# briann
 
 
 https://en.wikipedia.org/wiki/Artificial_neural_network
