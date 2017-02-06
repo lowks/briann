@@ -1,0 +1,5 @@
+Input 1,Input 2,Input 3,OUT_output 1,OUT_output 2
+0,0,1,0,0
+1,1,1,1,1
+1,0,1,1,0
+0,1,1,0,1

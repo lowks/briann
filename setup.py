@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='briann',
-      version='0.0.1',
+      version='0.0.2',
       description='',
       url='http://github.com/leehart/briann',
       author='Lee Hart',
@@ -9,6 +9,7 @@ setup(name='briann',
       license='',
       packages=['briann'],
       entry_points = {
-        'console_scripts': ['briann=briann.cli:main'],
+        'console_scripts': ['Brian=briann.__init__:main'],
       },
+      install_requires=['numpy'],
       zip_safe=False)
