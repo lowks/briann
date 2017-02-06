@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(name='briann',
       version='0.0.2',
-      description='',
+      description='briann',
       url='http://github.com/leehart/briann',
       author='Lee Hart',
       author_email='lee.hart@well.ox.ac.uk',
