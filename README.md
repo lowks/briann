@@ -30,6 +30,7 @@ cd briann
 pip install --editable . --upgrade --user
 nano ~/.pypirc
 python setup.py register -r https://testpypi.python.org/pypi
-twine upload dist/* -r testpypi
+python setup.py sdist
+twine upload dist/brian-0.0.2.tar.gz -r testpypi
 pip install -i https://testpypi.python.org/pypi briann --upgrade --user
 ```
